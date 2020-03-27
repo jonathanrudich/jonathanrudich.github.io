@@ -3947,7 +3947,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #main > .post {
-  padding: 2rem 8rem 6rem 6rem;
+  padding: 2rem 8rem 2rem 8rem;
 }
 
 #main > .post header.major > .date {
