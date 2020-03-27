@@ -2744,7 +2744,9 @@ input[type="radio"]:focus + label:before {
 }
 
 .image.main img {
-  width: 100%;
+  width: 730px;
+  height: 420px;
+  display: inline-block;
 }
 
 @media screen and (max-width: 736px) {
@@ -2796,6 +2798,10 @@ ul.actions {
 ul.actions li {
   padding: 0 0 0 1rem;
   vertical-align: middle;
+}
+
+ul.actions.posts {
+  display: inline-block;
 }
 
 ul.actions.special {
@@ -3052,7 +3058,7 @@ header > h4 + p {
 }
 
 header.major {
-  margin: 0 0 4rem 0;
+  margin: 0 0 0 0;
   text-align: center;
 }
 
@@ -3063,12 +3069,6 @@ header.major > :last-child {
 header.major > p {
   margin-top: 0;
   text-align: center;
-}
-
-header.major > ul {
-  margin-top: 0;
-  text-align: center;
-  display: inline-block;
 }
 
 header.major > .date {
@@ -3947,7 +3947,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #main > .post {
-  padding: 8rem 8rem 6rem 8rem;
+  padding: 2rem 8rem 6rem 6rem;
 }
 
 #main > .post header.major > .date {
@@ -3967,13 +3967,13 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 @media screen and (max-width: 1280px) {
   #main > .post {
-    padding: 6rem 4rem 4rem 4rem;
+    padding: 2rem 4rem 4rem 2rem;
   }
 }
 
 @media screen and (max-width: 736px) {
   #main > .post {
-    padding: 4rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
   }
 
   #main > .post header.major > .date {
