@@ -3065,6 +3065,12 @@ header.major > p {
   text-align: center;
 }
 
+header.major > ul {
+  margin-top: 0;
+  text-align: center;
+  display: inline-block;
+}
+
 header.major > .date {
   font-size: 1rem;
   margin: 0 0 4rem 0;
