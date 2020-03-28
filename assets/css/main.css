@@ -2801,6 +2801,11 @@ ul.actions li {
   vertical-align: middle;
 }
 
+ul.actions.featured {
+  text-align: center;
+  display: inline-block;
+}
+
 ul.actions.posts {
   display: inline-block;
 }
