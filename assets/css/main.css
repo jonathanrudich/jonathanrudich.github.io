@@ -3670,8 +3670,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  height: 10rem;
-  padding-bottom: 8rem;
+  height: 0;
+  padding-bottom: 4rem;
   position: relative;
   text-align: center;
   z-index: 2;
