@@ -2785,6 +2785,11 @@ a.image.zoom:hover img {
 
 /* Actions */
 
+#arrow {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
 ul.actions {
   display: -moz-flex;
   display: -webkit-flex;
