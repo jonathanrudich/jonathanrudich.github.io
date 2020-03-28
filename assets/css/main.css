@@ -2737,6 +2737,7 @@ input[type="radio"]:focus + label:before {
   display: block;
   margin: 4rem 0;
   width: 100%;
+  text-align: center;
 }
 
 .image.main:first-child {
