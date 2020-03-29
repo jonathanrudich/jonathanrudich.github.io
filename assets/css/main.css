@@ -2773,7 +2773,8 @@ a.image img {
 
 a.image.zoom img {
   width: 100%;
-  height: 300px;
+  height: auto;
+  max-height: 15rem;
 }
 
 a.image.zoom:hover img {
