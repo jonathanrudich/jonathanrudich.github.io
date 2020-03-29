@@ -274,6 +274,10 @@ p {
   margin: 0 0 2rem 0;
 }
 
+p.caption {
+  text-align: center;
+}
+
 h1,
 h2,
 h3,
