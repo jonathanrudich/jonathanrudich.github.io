@@ -2785,6 +2785,11 @@ a.image.zoom:hover img {
 }
 
 /* Actions */
+@media screen and (max-width: 736px) {
+  #arrow {
+    display: none;
+  }
+}
 
 #arrow {
   margin-top: 8rem;
