@@ -269,13 +269,13 @@ i {
   font-style: italic;
 }
 
+p.caption {
+  text-align: center;
+}
+
 p {
   text-align: justify;
   margin: 0 0 2rem 0;
-}
-
-p.caption {
-  text-align: center;
 }
 
 h1,
